@@ -1,7 +1,11 @@
 # daypop-search-box
 
 ## Usage
-in script
+install
+```
+npm install daypop-search-box
+```
+
 ```
 <template>
     <SearchBox />
@@ -9,14 +13,16 @@ in script
     <SearchBox lng="en" />
 </template>
 <script>
-import SearchBox from './components/search-box'
+import SearchBox from 'daypop-search-box'
+import from 'daypop-search-box/search-box.css'
+
 export default {
     name: 'App',
     components: {
         SearchBox
     }
 }
-</script>    
+</script>
 ```
 
 
