@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h3>Default</h3>
+    <SearchBox />
+    <h3>Language: en</h3>
+    <SearchBox lng="en" />
+    <h3>Language: arabic</h3>
+    <SearchBox lng="arabic" placeholder="ابحث عن الكلمات الأساسية" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchBox from './components/search-box'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SearchBox
   }
 }
 </script>
@@ -24,5 +28,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h3 {
+  text-align: left;
 }
 </style>

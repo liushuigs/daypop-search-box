@@ -1,5 +1,25 @@
 # daypop-search-box
 
+## Usage
+in script
+```
+<template>
+    <SearchBox />
+    <SearchBox lng="arabic" />
+    <SearchBox lng="en" />
+</template>
+<script>
+import SearchBox from './components/search-box'
+export default {
+    name: 'App',
+    components: {
+        SearchBox
+    }
+}
+</script>    
+```
+
+
 ## Project setup
 ```
 npm install
