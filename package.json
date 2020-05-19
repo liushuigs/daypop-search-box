@@ -7,6 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liushuigs/daypop-search-box.git"
+  },
+  "main": "./index.js",
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
