@@ -14,7 +14,7 @@ npm install daypop-search-box
 </template>
 <script>
 import SearchBox from 'daypop-search-box'
-import from 'daypop-search-box/search-box.css'
+import 'daypop-search-box/dist/search-box.css'
 
 export default {
     name: 'App',
