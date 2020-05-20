@@ -75,5 +75,6 @@
     flex: 1;
     margin-right: 1.188rem;
     outline: 0;
+    border: none;
   }
 </style>

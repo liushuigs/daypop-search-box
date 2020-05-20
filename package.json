@@ -1,6 +1,6 @@
 {
   "name": "daypop-search-box",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -43,7 +43,6 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "browserslist": [
     "> 1%",
     "last 2 versions",
