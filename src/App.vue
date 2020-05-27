@@ -5,7 +5,7 @@
     <h3>Language: en</h3>
     <SearchBox lng="en" />
     <h3>Language: arabic</h3>
-    <SearchBox lng="arabic" placeholder="ابحث عن الكلمات الأساسية" />
+    <SearchBox lng="arabic" />
   </div>
 </template>
 

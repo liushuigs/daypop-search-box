@@ -21,10 +21,11 @@
         validator(val) {
           return ['', 'arabic', 'en'].includes(val)
         }
-      },
-      placeholder: {
-        type: String,
-        default: 'Search for keywords'
+      }
+    },
+    computed: {
+      placeholder() {
+        return this.lng === 'arabic' ? 'ابحث عن كلمات مفاحية' : 'Search for keywords'
       }
     },
     data() {
