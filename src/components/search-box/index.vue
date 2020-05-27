@@ -68,6 +68,9 @@
     background: url("./search-24px.png") no-repeat center center/cover;
     margin: 0 0.5rem 0 1.188rem;
   }
+  .header-search.rtl > .icon {
+    margin: 0 1.188rem 0 0.5rem;
+  }
   .header-search > .text {
     height: 1rem;
     line-height: 1rem;
@@ -77,5 +80,9 @@
     margin-right: 1.188rem;
     outline: 0;
     border: none;
+  }
+  .header-search.rtl > .text {
+    margin-right: 0;
+    margin-left: 1.188rem;
   }
 </style>
